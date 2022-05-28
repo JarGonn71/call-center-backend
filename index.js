@@ -10,7 +10,7 @@ app.use(express.json({ extended: true }));
 app.use(cors({
 	origin: 'http://localhost:3000'
 }))
-``
+
 app.use('/api', router);
 
 const startApp = async() => {
